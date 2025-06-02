@@ -51,6 +51,7 @@ age=input("Enter your age : ")
 print ("Your name is : ", name)
 print("Your agfe is : ",age)
 '''
+'''
 num1=input("Enter first number : ")
 num2=input("Enter second number : ")
 sum=int(num1)+int(num2)
@@ -63,3 +64,17 @@ print(type(sum))
 user_input = input("Are you student ? (yes/no): ")
 is_student = user_input.lower() == 'yes'
 print("Is the user a student?", is_student)
+
+
+'''
+
+# User er kache jiggesha kora holo
+answer = input("Tumi ki Python shikho? (yes/no): ").strip().lower()
+
+# Uttor onujayi response dewa holo
+if answer == "yes":
+    print("Darun!")
+elif answer == "no":
+    print("Suru koro aaj thekei!")
+else:
+    print("Please sudhu 'yes' ba 'no' likho.")
