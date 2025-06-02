@@ -78,3 +78,10 @@ elif answer == "no":
     print("Suru koro aaj thekei!")
 else:
     print("Please sudhu 'yes' ba 'no' likho.")
+
+#avarage er jonno input
+num1=int(input("Enter first number: "))
+num2=int(input("Enter second number: "))
+
+avarage = (num1 + num2) / 2
+print("The average of the two numbers is:", avarage)
