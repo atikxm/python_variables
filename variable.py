@@ -59,3 +59,7 @@ print("The sum of the two numbers is : ", sum)
 print(type(num1))
 print(type(num2))
 print(type(sum))
+
+user_input = input("Are you student ? (yes/no): ")
+is_student = user_input.lower() == 'yes'
+print("Is the user a student?", is_student)
